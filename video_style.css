@@ -83,13 +83,13 @@ body {
     height: 100%;
     border: none;
     border-radius: 0;
-    /* border: none; */
+   
 }
 
 .mainBody {
     height: calc(100vh - 70px);
     display: flex;
-    overflow: hidden;
+    overflow: scroll;
     flex-direction: row-reverse;
 }
 
@@ -97,7 +97,7 @@ body {
     height: 100%;
     width: 500px;
     background-color: white;
-    overflow-y: scroll;
+
 }
 
 .mainBody .categories .categoriesSection {
@@ -250,7 +250,7 @@ input:checked+.slider:before {
     height: 100%;
     padding: 15px 25px;
     border-top: 1px solid #ddd;
-    overflow-y: scroll;
+   
 }
 
 
